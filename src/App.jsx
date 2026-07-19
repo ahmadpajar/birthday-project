@@ -232,7 +232,7 @@ export default function EtherealBirthday() {
   const playlist = [
     { title: "Jatuh Suka", artist: "Tulus", src: "https://res.cloudinary.com/dw2qtw4q/video/upload/v1784432795/TULUS_-_Jatuh_Suka_Official_Lyric_Video_frin1l.mp3" },
     { title: "1000x", artist: "Ghea Indrawani", src: "https://res.cloudinary.com/dw2qtw4q/video/upload/v1784446016/Ghea_Indrawari_-_1000X_Official_Visualizer_ccjl0h.mp3" },
-    { title: "Rusuk", artist: "Gery Gany", src: "https://res.cloudinary.com/dw2qtw4q/video/upload/v1784446021/TULUS_-_Labirin_Official_Lyric_Video_biylvc.mp3" }
+    { title: "Rusuk", artist: "Gery Gany", src: "https://res.cloudinary.com/dw2qtw4q/video/upload/v1784446278/Gery_Gany_-_Rusuk_Official_Music_Video_ndtap6.mp3" }
   ];
 
   /* === GRID BENTO/MASONRY YANG ESTETIK (Bug Diperbaiki) === 
