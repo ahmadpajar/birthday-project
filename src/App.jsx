@@ -457,15 +457,16 @@ export default function EtherealBirthday() {
             </div>
 
             <div className="w-full max-w-4xl h-[1px] bg-gradient-to-r from-transparent via-stone-300 to-transparent reveal"></div>
-
-            <div className="max-w-3xl w-full flex flex-col items-center cursor-pointer group reveal" onClick={handleNextMessage}>
-              <h3 className="text-2xl mb-8 text-center tracking-widest text-stone-500 uppercase font-sans font-light">Kotak Pesan Rahasia</h3>
-              <div className={`transition-all duration-700 w-full flex flex-col items-center text-center ${isMessageFading ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'}`}>
-                <Heart className="text-rose-500 mb-6 heartbeat-anim drop-shadow-md fill-rose-200" size={48} />
-                <p className="text-xl md:text-2xl font-serif text-stone-700 leading-relaxed italic px-4">"{secretMessages[activeMessageIndex]}"</p>
-                <p className="text-stone-400 mt-6 font-sans text-xs animate-pulse uppercase tracking-widest">Ketuk untuk pesan lainnya</p>
+            <section className="min-h-screen flex flex-col items-center justify-center px-6"> 
+              <div className="max-w-3xl w-full flex flex-col items-center cursor-pointer group reveal" onClick={handleNextMessage}>
+                <h3 className="text-2xl mb-8 text-center tracking-widest text-stone-500 uppercase font-sans font-light">Kotak Pesan Rahasia</h3>
+                <div className={`transition-all duration-700 w-full flex flex-col items-center text-center ${isMessageFading ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'}`}>
+                  <Heart className="text-rose-500 mb-6 heartbeat-anim drop-shadow-md fill-rose-200" size={48} />
+                  <p className="text-xl md:text-2xl font-serif text-stone-700 leading-relaxed italic px-4">"{secretMessages[activeMessageIndex]}"</p>
+                  <p className="text-stone-400 mt-6 font-sans text-xs animate-pulse uppercase tracking-widest">Ketuk untuk pesan lainnya</p>
+                </div>
               </div>
-            </div>
+            </section>   
           </section>
 
           {/* SEC 5: KAPSUL WAKTU */}
