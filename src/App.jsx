@@ -329,7 +329,7 @@ export default function EtherealBirthday() {
     setWishes([{ id: Date.now(), text: newWish, date: "Baru saja", isNew: true }, ...wishes]); 
 
     // 2. Kirim ke WhatsApp (Buka di tab baru, website kamu tetap terbuka)
-    const phoneNumber = "6281806942697"; // GANTI DENGAN NOMOR WA KAMU (tanpa tanda +, pakai kode 62)
+    const phoneNumber = "6282182190455"; // GANTI DENGAN NOMOR WA KAMU (tanpa tanda +, pakai kode 62)
     const encodedMessage = encodeURIComponent(`harapan baru : "${newWish}"`);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
 
